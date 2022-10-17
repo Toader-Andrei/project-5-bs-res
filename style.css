@@ -1,0 +1,181 @@
+body {
+    color: #b3b3b3;
+}
+hr {
+    width: 100%;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.presentetion-site .bg-img-1 {
+    background-image: url("bg-img-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    height: 200px;
+    border-radius: 4px;
+}
+.presentetion-site .bg-img-4 {
+    background-image: url("bg-img-4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    height: 200px;
+    border-radius: 4px;
+}
+.presentetion-site .bg-img-3 {
+    background-image: url("bg-img-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    height: 200px;
+    border-radius: 4px;
+}
+.presentetion-site .bg-img-5 {
+    background-image: url("bg-img-5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    height: 200px;
+    border-radius: 4px;
+}
+.presentetion-site .bg-img-6 {
+    background-image: url("bg-img-6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    height: 430px;
+    border-radius: 4px;
+}
+.presentetion-site .text-presentetion-site {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+}
+.presentetion-site .text-presentetion-site .card-presentetion-site {
+    height: 20px;
+    margin: 0 2px 0 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+.recent-posts .unbold-text{
+    font-weight: normal;
+}
+.recent-posts img:first-of-type {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.recent-posts .button-text-container img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.recent-posts .button-text-container .category-text {
+    border-radius: 4px;
+    padding: 3px 10px;
+}
+.recent-posts .button-text-container .text-container .black-text {
+    color: #000;
+}
+.recent-posts .button-text-container .text-container p:first-of-type {
+    color: #b3b3b3;
+}
+.recent-posts .button-text-container .gray-text {
+    color: #666666;
+}
+.recent-posts .button-text-container .blue-text {
+    color: #2f89fc;
+    cursor: pointer;
+}
+
+.pages-number-container .bg-blue{
+    background-color: #2f89fc;
+    color: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+
+.footer-presentation-row .bg-img-1 {
+    background-image: url("bg-img-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    border-radius: 4px;
+    height: 200px;
+}
+.footer-presentation-row .bg-img-2 {
+    background-image: url("bg-img-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    border-radius: 4px;
+    height: 200px;
+}
+.footer-presentation-row .bg-img-3 {
+    background-image: url("bg-img-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    border-radius: 4px;
+    height: 200px;
+}
+.footer-presentation-row .bg-img-6 {
+    background-image: url("bg-img-6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    height: 417px;
+    border-radius: 4px;
+}
+.footer-presentation-row .card-review {
+    height: 10%;
+    padding: 10px 0 0 10px;
+}
+.footer-presentation-row .card-review .card-review-theme {
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+.footer-presentation-row .card-review-title {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 4px;
+}
+
+@media (max-width: 991.98px) { 
+    .presentetion-site .bg-img-1 {
+        margin-bottom: 30px;
+    }
+    .presentetion-site .bg-img-5 {
+        margin-top: 30px;
+    }
+    .footer-presentation-row .margins-device {
+        margin-bottom: 20px;
+    }
+ }
+ @media (min-width: 991.99px) {
+    .presentetion-site .bg-img-1, .presentetion-site .bg-img-3{ 
+        margin-bottom: 30px;
+    }
+    
+ }
